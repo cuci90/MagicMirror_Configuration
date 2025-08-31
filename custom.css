@@ -1,0 +1,37 @@
+:root {
+  --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-background: black;
+
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+
+  font-size: 20px;
+  font-size-small: 5.75rem;
+
+  --gap-body-top: 60px;
+  --gap-body-right: 60px;
+  --gap-body-bottom: 60px;
+  --gap-body-left: 60px;
+
+  --gap-modules: 30px;
+}
+
+.region.top.bar {
+ -- padding: 200px 205px;
+  padding-bottom: 10px
+}
+
+
+body {
+  margin: 15px;
+  position: absolute;
+  height: (100%-30px);
+  width: (100%-30px);
+}
+
+.MMM-page-indicator .indicator::before {
+  font-size: 1.0rem;  
+}
+
